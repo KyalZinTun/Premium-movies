@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #444;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #444;
+        }
+        .movie-category {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .movie {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+        .movie img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Premium Movies</h1>
+        <p>Sharing the best in action, new releases, comedy, and drama.</p>
+    </header>
+
+    <nav>
+        <a href="#action">Action</a>
+        <a href="#new-releases">New Releases</a>
+        <a href="#comedy">Comedy</a>
+        <a href="#drama">Drama</a>
+    </nav>
+
+    <section id="action">
+        <h2>Action Movies</h2>
+        <div class="movie-category">
+            <div class="movie">
+                <img src="action-movie.jpg" alt="Action Movie">
+                <h3>Action Movie Title</h3>
+                <p>Exciting action-packed thriller.</p>
+            </div>
+            <!-- Add more action movies here -->
+        </div>
+    </section>
+
+    <section id="new-releases">
+        <h2>New Releases</h2>
+        <div class="movie-category">
+            <div class="movie">
+                <img src="new-release.jpg" alt="New Release">
+                <h3>New Release Title</h3>
+                <p>The latest blockbuster hit.</p>
+            </div>
+            <!-- Add more new release movies here -->
+        </div>
+    </section>
+
+    <section id="comedy">
+        <h2>Comedy Movies</h2>
+        <div class="movie-category">
+            <div class="movie">
+                <img src="comedy-movie.jpg" alt="Comedy Movie">
+                <h3>Comedy Movie Title</h3>
+                <p>Laugh-out-loud comedy.</p>
+            </div>
+            <!-- Add more comedy movies here -->
+        </div>
+    </section>
+
+    <section id="drama">
+        <h2>Drama Movies</h2>
+        <div class="movie-category">
+            <div class="movie">
+                <img src="drama-movie.jpg" alt="Drama Movie">
+                <h3>Drama Movie Title</h3>
+                <p>Heartfelt and moving story.</p>
+            </div>
+            <!-- Add more drama movies here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Premium Movies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
